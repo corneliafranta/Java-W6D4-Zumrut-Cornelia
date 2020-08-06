@@ -1,0 +1,37 @@
+Report 1:
+SELECT COUNT(*) FROM departments;
+9
+SELECT COUNT(*) FROM dept_emp;
+331603
+SELECT COUNT(*) FROM dept_manager;
+24
+SELECT COUNT(*) FROM employees;
+300024
+SELECT COUNT(*) FROM salaries;
+2844047
+SELECT COUNT(*) FROM titles;
+443308
+
+Report 2:
+SELECT * FROM employees WHERE first_name = 'Mark'
+230 employees called mark
+
+Report 3:
+SELECT * FROM employees WHERE first_name = 'Eric' AND last_name LIKE 'A%'
+13
+
+Report 4:
+SELECT * FROM employees WHERE YEAR(hire_date) = 1985
+see result in pdf
+
+Report 5:
+SELECT * FROM employees WHERE year(hire_date)<= 1997 And year(hire_date)>=1990
+129545
+see result in pdf
+
+Report 6:
+
+
+
+
+
